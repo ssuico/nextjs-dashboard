@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/NextJSProj/nextjs-dashboard/app/dashboard/layout.tsx"],"sourcesContent":["import SideNav from '@/app/ui/dashboard/sidenav';\r\n\r\nexport default function Layout({ children }: { children: React.ReactNode }) {\r\n    return (\r\n        <div className=\"flex h-screen flex-col md:flex-row md:overflow-hidden\">\r\n            <div className=\"w-full flex-none md:w-64\">\r\n                <SideNav />\r\n            </div>\r\n            <div className=\"flex-grow p-6 md:overflow-y-auto md:p-12\">{children}</div>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS,OAAO,EAAE,QAAQ,EAAiC;IACtE,qBACI,6WAAC;QAAI,WAAU;;0BACX,6WAAC;gBAAI,WAAU;0BACX,cAAA,6WAAC,kIAAA,CAAA,UAAO;;;;;;;;;;0BAEZ,6WAAC;gBAAI,WAAU;0BAA4C;;;;;;;;;;;;AAGvE"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
